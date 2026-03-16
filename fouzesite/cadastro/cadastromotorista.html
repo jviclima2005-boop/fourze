@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Motorista</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td><a href="cadastro.html">← Voltar</a></td>
+        </tr>
+    </table>
+
+    <center><h2>Cadastro Motorista</h2></center>
+
+    <table>
+        <tr valign="top">
+            <td>
+                <table width="100%" border="1" cellpadding="12" cellspacing="0">
+                    <tr>
+                        <td colspan="2"><h3>Dados Pessoais</h3></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="Nome Completo" size="55" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="CPF" size="25" required>
+                        </td>
+                        <td>
+                            <input type="tel" placeholder="Telefone" size="25" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="email" placeholder="E-mail" size="55" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="Endereço Completo" size="55" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <b>Upload Foto Rosto</b><br><br>
+                            <button>Selecionar Foto</button>
+                        </td>
+                        <td align="center">
+                            <b>ADICIONE O DOCUMENTO DA CNH/RG</b><br><br>
+                            <button>Seleccionar Arquivo</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button>Salvar</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table width="100%" border="1" cellpadding="12" cellspacing="0">
+
+                    <tr>
+                        <td colspan="2"><h3>Dados do Veículo</h3></td>
+                        <td><button>+ Adicionar outro veículo</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="Tipo de Veículo" size="25">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Placa do Veículo" size="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="number" placeholder="Ano do Veículo" size="25">
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Capacidade de Carga (m³)" size="25">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><h3>Informações de Transporte</h3></td>
+                        <td><button>+ Adicionar mais Dias</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <select>
+                                <option value="">Regiões de Atendimento</option>
+                                <option value="norte">Norte</option>
+                                <option value="sul">Sul</option>
+                                <option value="leste">Leste</option>
+                                <option value="oeste">Oeste</option>
+                                <option value="centro">Centro</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" align="center">
+                            <h3>Dias e Horários Disponíveis</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <table width="100%" border="1" cellpadding="5" cellspacing="0">
+                                <tr align="center">
+                                    <td><b>Seg</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Ter</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Qua</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Qui</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Sex</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Sáb</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                    <td><b>Dom</b><br><input type="time" value="00:00"> às <input type="time" value="00:00"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" align="center">
+                            <button>Salvar</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+
+        </tr>
+    </table>
+
+</body>
+</html>
